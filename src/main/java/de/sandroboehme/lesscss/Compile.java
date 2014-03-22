@@ -1,7 +1,7 @@
-package org.lesscss;
+package de.sandroboehme.lesscss;
 
-import org.lesscss.logging.LessLogger;
-import org.lesscss.logging.LessLoggerFactory;
+import de.sandroboehme.lesscss.logging.LessLogger;
+import de.sandroboehme.lesscss.logging.LessLoggerFactory;
 
 import java.io.File;
 import java.util.Arrays;
@@ -13,7 +13,7 @@ public class Compile {
 
 	public static void main(String[] args) throws Exception {
 		if( args.length < 1 ) {
-		    logger.info("usage: org.lesscss.Compile <args> <less_filename>");
+		    logger.info("usage: de.sandroboehme.lesscss.Compile <args> <less_filename>");
             System.exit(-1);
 		}
 		

@@ -1,4 +1,4 @@
-package org.lesscss.logging;
+package de.sandroboehme.lesscss.logging;
 
 class SLF4JLessLoggerProvider implements LessLoggerProvider {
     public LessLogger getLogger(Class<?> clazz) {

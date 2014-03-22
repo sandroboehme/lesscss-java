@@ -1,4 +1,4 @@
-package org.lesscss;
+package de.sandroboehme.lesscss;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lesscss;
+package de.sandroboehme.lesscss;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -27,8 +27,9 @@ import static java.util.regex.Pattern.MULTILINE;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.io.input.BOMInputStream;
-import org.lesscss.logging.LessLogger;
-import org.lesscss.logging.LessLoggerFactory;
+
+import de.sandroboehme.lesscss.logging.LessLogger;
+import de.sandroboehme.lesscss.logging.LessLoggerFactory;
 
 /**
  * Represents the metadata and content of a LESS source.

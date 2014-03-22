@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lesscss;
+package de.sandroboehme.lesscss;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -31,8 +31,6 @@ import java.util.List;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.lesscss.logging.LessLogger;
-import org.lesscss.logging.LessLoggerFactory;
 import org.mozilla.javascript.Context;
 import org.mozilla.javascript.Function;
 import org.mozilla.javascript.JavaScriptException;
@@ -40,6 +38,9 @@ import org.mozilla.javascript.Script;
 import org.mozilla.javascript.Scriptable;
 import org.mozilla.javascript.ScriptableObject;
 import org.mozilla.javascript.tools.shell.Global;
+
+import de.sandroboehme.lesscss.logging.LessLogger;
+import de.sandroboehme.lesscss.logging.LessLoggerFactory;
 
 /**
  * The LESS compiler to compile LESS sources to CSS stylesheets.

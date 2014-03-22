@@ -1,4 +1,4 @@
-package org.lesscss.logging;
+package de.sandroboehme.lesscss.logging;
 
 public class LessLoggerFactory {
     private static LessLoggerFactory instance = new LessLoggerFactory();

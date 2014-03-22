@@ -1,4 +1,4 @@
-package org.lesscss.logging;
+package de.sandroboehme.lesscss.logging;
 
 interface LessLoggerProvider {
     LessLogger getLogger(Class<?> clazz);

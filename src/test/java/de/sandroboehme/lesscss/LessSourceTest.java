@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lesscss;
+package de.sandroboehme.lesscss;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
@@ -26,6 +26,10 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
+
+import de.sandroboehme.lesscss.FileResource;
+import de.sandroboehme.lesscss.LessSource;
+import de.sandroboehme.lesscss.Resource;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lesscss;
+package de.sandroboehme.lesscss;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -42,7 +42,6 @@ import org.apache.commons.lang3.reflect.FieldUtils;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.lesscss.logging.LessLogger;
 import org.mockito.Mock;
 import org.mozilla.javascript.Context;
 import org.mozilla.javascript.Function;
@@ -53,9 +52,11 @@ import org.mozilla.javascript.ScriptableObject;
 import org.mozilla.javascript.tools.shell.Global;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
-import org.lesscss.LessCompiler;
-import org.lesscss.LessException;
-import org.lesscss.LessSource;
+
+import de.sandroboehme.lesscss.LessCompiler;
+import de.sandroboehme.lesscss.LessException;
+import de.sandroboehme.lesscss.LessSource;
+import de.sandroboehme.lesscss.logging.LessLogger;
 
 @PrepareForTest({Context.class, FileUtils.class, LessCompiler.class})
 @RunWith(PowerMockRunner.class)

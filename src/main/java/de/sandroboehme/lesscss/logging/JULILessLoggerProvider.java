@@ -1,4 +1,4 @@
-package org.lesscss.logging;
+package de.sandroboehme.lesscss.logging;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

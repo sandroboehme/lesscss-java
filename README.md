@@ -1,8 +1,9 @@
-Official LESS CSS Compiler for Java
+LESS CSS Compiler for Java
 ===================================
 
-**Latest release**  1.6.1-SNAPSHOT - compatible with less 1.6.1
+Forked from the official Less CSS compiler at https://github.com/marceloverdijk/lesscss-java
 
+**Latest release**  1.6.1.1.0 - compatible with less 1.6.1
 
 
 LESS CSS Compiler for Java is a library to compile LESS sources to CSS stylesheets.
@@ -34,9 +35,9 @@ Getting Started
 Maven users should add the library using the following dependency:
 
     <dependency>
-      <groupId>org.lesscss</groupId>
+      <groupId>de.sandroboehme.lesscss</groupId>
       <artifactId>lesscss</artifactId>
-      <version>1.6.1-SNAPSHOT</version>
+      <version>1.6.1.1.0</version>
     </dependency>
 
 (lesscss-java is in the Maven Central repository.)
@@ -54,19 +55,19 @@ Compatibility
 
 The LESS CSS Compiler for Java contains all LESS compatibility tests. All tests pass, except the @import test case which fails partially as the compiler does not support the media query import feature (yet).
 
-The project also contains integration tests for compiling the Twitter Bootstrap (http://twitter.github.com/bootstrap/) library. If you are using another 3th party LESS library you want to be added to the integration tests, just create a issue and provide a link to the library.
+The project also contains integration tests for compiling the Twitter Bootstrap 3.1 (http://twitter.github.com/bootstrap/) library. If you are using another 3th party LESS library you want to be added to the integration tests, just create a issue and provide a link to the library.
 
 
 Support
 -------
 
-Have a question, or found an issue? Just create a issue: https://github.com/marceloverdijk/lesscss-java/issues
+Have a question, or found an issue? Just create a issue: https://github.com/sandroboehme/lesscss-java/issues
 
 
 Building From Source
 --------------------
 
-Can be built with [Maven 2.2.x](http://maven.apache.org) (or later?) by using the following commands:
+Can be built with [Maven 2.2.x](http://maven.apache.org) (and later) by using the following commands:
 
     mvn package
 
