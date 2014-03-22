@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>de.sandroboehme.lesscss</groupId>
     <artifactId>lesscss</artifactId>
-    <version>1.6.1.1.0</version>
+    <version>1.6.1.1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Fork of the official LESS CSS Compiler for Java</name>
     <description>Fork of the official LESS CSS Compiler for Java</description>
